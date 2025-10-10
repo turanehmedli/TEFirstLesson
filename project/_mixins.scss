@@ -1,0 +1,23 @@
+@mixin c-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin ctwo-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@mixin x-center{
+    display: flex;
+    justify-content: center;
+}
+
+@mixin y-center{
+    display: flex;
+    align-items: center;
+}
