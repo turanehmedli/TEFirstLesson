@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(17, 16, 26);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container {
+  width: 400px;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(13, 11, 22);
+  position: relative;
+  color: white;
+}
+body .container .PSN {
+  color: black;
+  background-color: yellow;
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+body .container .PBR {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(0, 132, 255);
+  border-radius: 100%;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container .PBR .PIMG {
+  width: 90px;
+  height: 90px;
+  border: 1px solid black;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container .PBR .PIMG img {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+}
+body .container .main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+body .container .main h1 {
+  margin-bottom: 10px;
+}
+body .container .main h3 {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+body .container .main p {
+  font-size: 20px;
+}
+body .container .main p span {
+  font-weight: 700;
+}
+body .container .btn {
+  margin-bottom: 50px;
+}
+body .container .btn .btn1 {
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+body .container .btn .btn1 a {
+  text-decoration: none;
+}
+body .container .btn .btn1 .linke {
+  color: rgb(0, 132, 255);
+}
+body .container .btn .btn1 .git {
+  color: black;
+}
+body .container .btn .github {
+  border: none;
+  background-color: rgb(0, 132, 255);
+}
+body .container .btn .Linkedin {
+  border: 2px solid rgb(0, 132, 255);
+  background-color: rgb(13, 11, 22);
+}
+body .container .developer {
+  background-color: rgb(8, 8, 26);
+  width: 100%;
+  padding: 20px 10px;
+}
+body .container .developer h2 {
+  font-size: 18px;
+  color: rgb(160, 159, 159);
+}
+body .container .developer .GRD {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(6, 1fr);
+  margin-top: 8px;
+}
+body .container .developer .GRD div {
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 10px 5px;
+  font-size: 18px;
+  padding: 5px;
+  color: rgb(136, 136, 136);
+}
+body .container .developer .GRD .C {
+  grid-column: 1/1;
+}/*# sourceMappingURL=style.css.map */
